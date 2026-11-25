@@ -22,6 +22,10 @@ App de Android (Kotlin + Jetpack Compose) que envuelve la web de Microsoft Rewar
 2. Espera a que Gradle sincronice.
 3. Ejecuta la app en un dispositivo o emulador.
 
+## Compilar con GitHub Actions
+
+El repositorio incluye `.github/workflows/build.yml`. En cada push se genera un APK de depuración: entra a la pestaña **Actions**, abre la ejecución y descarga el archivo desde **Artifacts** (`RewardsHub-debug`). También puedes lanzarlo a mano con **Run workflow**.
+
 ## Lo que la app NO hace
 
 - No automatiza búsquedas, clics ni tareas. Cada acción la haces tú.
